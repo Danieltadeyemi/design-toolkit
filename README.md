@@ -96,7 +96,19 @@ Ranked by maturity. All React-first unless noted.
 | [Hyperiux Components](https://github.com/Hyperiux-Immersion-Labs/hyperiux-components) | 50+ free animation effects for Next.js, CLI-installable | MIT (free tier) | 100+ more are paid Pro. Tweet link was wrong; this is the real repo. |
 | [Trickle UI Kit](https://github.com/akaieuan/trickle-UI-kit) | Pure-CSS text animations, no runtime | MIT | Small (51★). Tweet link was wrong; this is the real repo. |
 
-**Rule of thumb:** use these for one or two signature moments per page, not everywhere. The taste skills (`taste-motion`, `cinematic-motion`) set the budget.
+### More libraries (from [@DevDsgn](https://x.com/DevDsgn/status/2112483056577835482), Oct 2026)
+
+| Library | What you get | Price / license | Notes |
+|---|---|---|---|
+| [beUI](https://beui.dev) | 143 animated components, 23 blocks, 13 charts, 18 AI-chat interface pieces (prompt input, voice orb, message); React Native too | Free, MIT · Pro tier paid | **Best of this batch.** Built for agents: has an `llms.txt` and "for coding agents" docs. `npx shadcn add @beui/button`. Pro adds templates, an agent skill and MCP. |
+| [interior.dev](https://interior.dev) | 54 micro-interactions: loading button, hold-to-confirm, segmented control, like burst | Free, MIT | 1.1k★. React + Tailwind + Motion, installs via shadcn CLI. Great for making app screens feel finished. |
+| [Cue](https://cuedesign.space) | Curated "Awwwards-tier" heroes, animations, interactions, each shipped with a ready AI prompt | Paid ($99 lifetime) · license not stated | The prompts are the selling point. Only worth it if the free libraries don't cover a signature moment. |
+| [RareUI](https://github.com/Codewithswappy/RareUI) | Animated premium-look components (e.g. liquid metal) | Free, MIT | Small (17★). `npx rareui add liquid-metal`. Repo points to rareui.in; rareui.com blocks automated checks, so the link between them isn't confirmed. |
+| [FeralUI](https://feralui.dev) | Physics-driven experiments: pull cord, claw-machine captcha, crumple, fur | No install or license info | Inspiration, not a library. Look, don't copy-paste. |
+
+**Rule of thumb:** use these for one or two signature moments per page, not everywhere.
+
+**Getting Claude to use them well:** pasting a site URL teaches it little. Install the component into the project first (the shadcn commands above), or point it at a library's `llms.txt`, so it works from the real code. The taste skills (`taste-motion`, `cinematic-motion`) set the budget.
 
 ---
 
